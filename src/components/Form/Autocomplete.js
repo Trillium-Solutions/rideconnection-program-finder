@@ -13,7 +13,9 @@ class Autocomplete extends Component {
 
     handleAutocompleteSelect() {
         const place = this.autocomplete.getPlace();
-        console.log(place);
+        let lat = place.geometry.location.lat();
+        let lng = place.geometry.location.lng();
+        this.props.handleInput({lat, lng});
     }
 
     componentDidMount() {

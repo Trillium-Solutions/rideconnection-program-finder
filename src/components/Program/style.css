@@ -1,0 +1,22 @@
+.program {
+    padding: 12px 24px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+}
+.col {
+    flex: 1;
+    flex-basis: 60%;
+    margin-left: 12px;
+    margin-right: 12px;
+    align-self: center;
+
+}
+.col:first-child {
+    flex-basis: 40%;
+}
+h3 a {
+    text-decoration: underline;
+}

@@ -36,3 +36,67 @@ label {
     width: auto;
     z-index: 100000;
 }
+
+.formLegend legend {
+    font-size: 2rem;
+    margin-bottom: 6px;
+    color: #363a37;
+}
+.formLegend {
+    margin-bottom: 12px;
+}
+.formLegend input {
+    margin-left: 24px;
+    margin-right: 4px;
+    vertical-align: middle;
+    display: inline;
+}
+.formLegend label {
+    display: inline;
+}
+
+.optionsSection legend {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.optionsSection input {
+    margin-left: 24px;
+    display: inline;
+}
+.optionsSection label {
+    display: inline;
+}
+.optionsSection {
+    overflow: hidden;
+    transition: max-height 0.4s linear;
+}
+.autoCompleteSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.autoCompleteSection > div:first-child {
+    flex: 1;
+    margin-right: 24px;
+}
+@media (max-width: 550px) {
+    .optionsSection input {
+        margin-left: 0;
+    }
+    .optionsSection label {
+        font-size: 1.8rem;
+    }
+    .autoCompleteSection{
+        display: block;
+        margin-bottom: 60px;
+    }
+    .autoCompleteSection > div:first-child {
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+    .autoCompleteSection > div:last-child {
+        text-align: right;
+    }
+
+}

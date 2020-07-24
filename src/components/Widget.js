@@ -6,7 +6,7 @@ import WKT from 'terraformer-wkt-parser';
 import Form from './Form';
 import ProgramList from './ProgramList';
 
-import { calculateProgramBounds } from '../utils';
+import { calculateProgramBounds, selectActivePrograms } from '../utils';
 
 // props passed in from preact-habitat
 class Widget extends Component {
@@ -17,7 +17,8 @@ class Widget extends Component {
             error: false,
             programs: {loaded: false, data: []},
             areas: {loaded: false, data: []},
-            formData: {}
+            formData: {},
+            eligiblePrograms: []
         };
         this.bounds = null;
         this.handleFormSubmit = this.handleFormSubmit.bind(this);
@@ -73,7 +74,14 @@ class Widget extends Component {
     }
 
     handleFormSubmit(formData) {
-        console.log(formData);
+        this.setState({ formData });
+        let { programs, areas } = this.state;
+        const eligiblePrograms = selectActivePrograms({
+            formData: formData,
+            programs: programs.data,
+            areas:areas.data
+        });
+        this.setState({eligiblePrograms});
     }
 
     renderLoading() {
@@ -91,7 +99,11 @@ class Widget extends Component {
                     handleFormSubmit={this.handleFormSubmit}
                     programBounds={this.bounds}
                 />
-                <ProgramList />
+                <ProgramList
+                    programs={this.state.programs.data}
+                    formData={this.state.formData}
+                    eligiblePrograms={this.state.eligiblePrograms}
+                />
             </div>
         );
     }
@@ -119,8 +131,7 @@ class Widget extends Component {
 
 Widget.defaultProps = {
     programsFile: 'assets/programs.json',
-    areasFile: 'assets/areas.txt',
-    googleAPIKey: null
+    areasFile: 'assets/areas.txt'
 }
 
 export default Widget;

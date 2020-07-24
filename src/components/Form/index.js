@@ -1,7 +1,9 @@
 import { h, Component } from "preact";
 
-import Checkbox from "./Checkbox";
 import Autocomplete from "./Autocomplete";
+import EligibilityBasedOptions from "./EligibilityBasedOptions";
+
+import styles from "./style.css";
 
 class Form extends Component {
     constructor() {
@@ -25,7 +27,7 @@ class Form extends Component {
     }
 
     handleAutocompleteInput(coords) {
-        console.log(coords);
+        this.setState({origin: coords});
     }
 
     onToggle(e) {
@@ -37,40 +39,32 @@ class Form extends Component {
     render() {
         return (
             <form onSubmit={(e) => this.onSubmit(e)}>
-                <fieldset>
-                    <legend>Select all that apply</legend>
-                    <Checkbox
+                <fieldset class={styles.formLegend}>
+                    <legend>Are you 60+ years old or experiencing a disability?</legend>
+                    <input
+                        type="radio"
+                        id="yes_eligible"
                         name="eligibility_restricted"
+                        onClick={(e) => this.onToggle(e)}
                         checked={this.state.eligibility_restricted}
-                        onToggle={(e) => this.onToggle(e)}
-                        label="I am 60+ years old or experiencing a disability"
                     />
-                    <Checkbox
-                        name="medical"
-                        checked={this.state.medical}
-                        onToggle={(e) => this.onToggle(e)}
-                        label="This trip is for a medical appointment"
+                    <label for="yes_eligible">Yes</label>
+                    <input
+                        type="radio"
+                        id="no_eligible"
+                        name="eligibility_restricted"
+                        onClick={(e) => this.onToggle(e)}
+                        checked={!this.state.eligibility_restricted}
                     />
-                    <Checkbox
-                        name="shopping"
-                        checked={this.state.shopping}
-                        onToggle={(e) => this.onToggle(e)}
-                        label="This trip is to help me go shopping"
-                    />
-                    <Checkbox
-                        name="social"
-                        checked={this.state.social}
-                        onToggle={(e) => this.onToggle(e)}
-                        label="I am looking for trips that provide a social experience"
-                    />
+                    <label for="no_eligible">No</label>
                 </fieldset>
-                <div style={{
-                    'display': 'flex',
-                    'justify-content': 'space-between',
-                    'align-items': 'center',
-                    'margin-bottom': '24px'
-                    }}>
-                    <div style={{'flex': '1', 'margin-right': '24px'}}>
+                <EligibilityBasedOptions
+                    isOpen={this.state.eligibility_restricted}
+                    onToggle={(e) => this.onToggle(e)}
+                    fields={this.state}
+                />
+                <div class={styles.autoCompleteSection}>
+                    <div>
                         <Autocomplete
                             programBounds={this.props.programBounds}
                             handleInput={(coords) => this.handleAutocompleteInput(coords)}
