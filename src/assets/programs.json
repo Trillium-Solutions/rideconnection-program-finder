@@ -343,6 +343,38 @@
     "areas": [225],
     "category": "lunch"
 }, {
+    "route_long_name": "Veterans Helping Veterans",
+    "route_url": "",
+    "eligibility_restricted": false,
+    "phone_number": "",
+    "description": "Helping veterans and their spouses gain access to transportation by recruiting volunteer drivers who are veterans themselves. To volunteer, call 503-528-178. To access service call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service).",
+    "areas": [],
+    "category": "alternative"
+},{
+    "route_long_name": "RideWise Travel Training Program",
+    "route_url": "",
+    "eligibility_restricted": false,
+    "phone_number": "",
+    "description": "Participants in our RideWise program receive access to information, public transportation training, and support centered on the safe and independent use of public transportation. Visit our page or call us at 503-226-0700 (TTY: 711) and we will get you going.",
+    "areas": [],
+    "category": "alternative"
+},{
+    "route_long_name": "Ride Together Mileage Reimbursement",
+    "route_url": "",
+    "eligibility_restricted": true,
+    "phone_number": "",
+    "description": "This program empowers riders to recruit their own drivers. Each driver with the Ride Together program is reimbursed for miles driven. Available in Multnomah and Washington counties for older adults and people with disabilities. Call 503-226-0700 or TTY: 711 to get started.",
+    "areas": [],
+    "category": "alternative"
+},{
+    "route_long_name": "Culturally Specific Programs",
+    "route_url": "",
+    "eligibility_restricted": false,
+    "phone_number": "",
+    "description": "Ride Connection partners with a variety of local organizations to provide rides and services oriented towards riders with a first language other than English or a shared ethnicity. Call 502-226-0700 (TTY: 711) to learn more.",
+    "areas": [],
+    "category": "alternative"
+},{
     "route_long_name": "Urban League Lunch",
     "route_url": "https://ulpdx.org/programs/senior-services",
     "eligibility_restricted": true,

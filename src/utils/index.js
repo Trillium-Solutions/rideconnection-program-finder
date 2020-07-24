@@ -34,6 +34,10 @@ export const selectActivePrograms = (selectors) => {
     return programs;
 }
 
+export const selectAlternativePrograms = programs => {
+    return programs.filter( program => program.category === 'alternative');
+}
+
 function otherCategoryIsApplicable(categories, formData) {
     if ((categories.length === 1) && formData.social) {
         return false;

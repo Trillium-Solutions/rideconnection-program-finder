@@ -5,6 +5,7 @@ import WKT from 'terraformer-wkt-parser';
 
 import Form from './Form';
 import ProgramList from './ProgramList';
+import AlternativeProgramList from './AlternativeProgramList';
 
 import { calculateProgramBounds, selectActivePrograms } from '../utils';
 
@@ -103,6 +104,13 @@ class Widget extends Component {
                     programs={this.state.programs.data}
                     formData={this.state.formData}
                     eligiblePrograms={this.state.eligiblePrograms}
+                />
+                <div style="text-align:center;margin-top:24px;margin-bottom:48px;">
+                    <a href="/" class="btn btn-secondary">Register with Ride Connection</a>
+                </div>
+                <AlternativeProgramList
+                    programs={this.state.programs.data}
+                    formData={this.state.formData}
                 />
             </div>
         );
