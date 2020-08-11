@@ -105,9 +105,6 @@ class Widget extends Component {
                     formData={this.state.formData}
                     eligiblePrograms={this.state.eligiblePrograms}
                 />
-                <div style="text-align:center;margin-top:24px;margin-bottom:48px;">
-                    <a href="/" class="btn btn-secondary">Register with Ride Connection</a>
-                </div>
                 <AlternativeProgramList
                     programs={this.state.programs.data}
                     formData={this.state.formData}

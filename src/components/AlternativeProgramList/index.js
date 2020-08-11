@@ -16,7 +16,7 @@ class AlternativeProgramList extends Component {
         }
         return (
             <div class="alt-program-list">
-                <h2>Other transportation options</h2>
+                <h2 class="section-header"><span>Other transportation options</span></h2>
                 <div class="section-headlines">
                     <p>Ride Connection also sponsors the following transportation programs to help you get around.</p>
                 </div>

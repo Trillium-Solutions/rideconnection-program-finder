@@ -21,28 +21,23 @@ export const calculateProgramBounds = areas => {
 export const selectActivePrograms = (selectors) => {
     let { formData, programs, areas } = selectors;
     let origin = new Terraformer.Point([formData.origin.lng, formData.origin.lat]);
-    let categories = [];
-    if (formData.medical) categories.push('medical');
-    if (formData.shopping) categories.push('shopping');
-    if (formData.social) categories.push('lunch');
-    if (otherCategoryIsApplicable(categories, formData)) categories.push('other');
     if (!formData.eligibility_restricted) {
         programs = programs.filter( program => program.eligibility_restricted === formData.eligibility_restricted);
     }
-    programs = programs.filter( program => categories.includes(program.category) );
+    programs = programs.filter( program => program.category !== 'alternative');
     programs = programs.filter( program => originIsInProgramBounds(program, areas, origin ) );
+    programs = programs.sort((a,b) => {
+        if (a.category === b.category) return 0;
+        if (a.category === 'other') return -1;
+        if (b.category === 'other') return 1;
+        if (a.category < b.category) return -1;
+        if (a.category > b.category) return 1;
+    });
     return programs;
 }
 
 export const selectAlternativePrograms = programs => {
     return programs.filter( program => program.category === 'alternative');
-}
-
-function otherCategoryIsApplicable(categories, formData) {
-    if ((categories.length === 1) && formData.social) {
-        return false;
-    }
-    return true;
 }
 
 function originIsInProgramBounds(program, areas, origin) {

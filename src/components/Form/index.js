@@ -1,7 +1,6 @@
 import { h, Component } from "preact";
 
 import Autocomplete from "./Autocomplete";
-import EligibilityBasedOptions from "./EligibilityBasedOptions";
 
 import styles from "./style.css";
 
@@ -9,10 +8,7 @@ class Form extends Component {
     constructor() {
         super();
         this.state = {
-            eligibility_restricted: false,
-            medical: false,
-            shopping: false,
-            social: false,
+            eligibility_restricted: true,
             origin: {
                 lat: null,
                 lng: null
@@ -58,11 +54,6 @@ class Form extends Component {
                     />
                     <label for="no_eligible">No</label>
                 </fieldset>
-                <EligibilityBasedOptions
-                    isOpen={this.state.eligibility_restricted}
-                    onToggle={(e) => this.onToggle(e)}
-                    fields={this.state}
-                />
                 <div class={styles.autoCompleteSection}>
                     <div>
                         <Autocomplete

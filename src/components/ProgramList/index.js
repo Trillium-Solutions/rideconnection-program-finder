@@ -12,14 +12,14 @@ class ProgramList extends Component {
         if ( eligiblePrograms.length === 0 ) {
             return(
                 <div class="program-list no-programs">
-                    <h2>It looks like none of our programs fit your search.</h2>
+                    <h2 class="section-header"><span>It looks like none of our programs fit your search.</span></h2>
                     <p class="subtitle">Check out these other transportation options and see if any fit your needs, or try searching with different criteria.</p>
                 </div>
             );
         }
         return (
             <div class="program-list">
-                <h2>After registering with Ride Connection, you can access:</h2>
+                <h2 class="section-header"><span>After registering with Ride Connection, you can access:</span></h2>
                 {eligiblePrograms.map(program => {
                     return (
                         <Program

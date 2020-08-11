@@ -17,8 +17,18 @@
 .col:first-child {
     flex-basis: 40%;
 }
-h3 a {
-    text-decoration: underline;
+
+.badge {
+    display: inline-block;
+    font-size: 0.6em;
+    padding: 6px 12px;
+    border-radius: 10px;
+    background-color: #555;
+    color: #fff;
+}
+.badgeRow {
+    margin-bottom: 6px;
+    text-align: right;
 }
 
 @media (max-width:650px) {

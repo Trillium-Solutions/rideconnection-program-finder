@@ -108,7 +108,7 @@
     "eligibility_restricted": true,
     "phone_number": "503-721-6756",
     "description": "Impact NW's medical transportation service is only available to senior citizens 60+ years or people with disabilities. To book a ride call 503-721-6756 or TTY: 7-1-1 (Oregon Relay Service) between 7:30am and 5:00pm, Monday-Friday, at least 4 days in advance of your trip time.",
-    "areas": [235, 223],
+    "areas": [235],
     "category": "medical"
 }, {
     "route_long_name": "Metropolitan Family Service Tuesday Shopping",
@@ -132,7 +132,7 @@
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
     "description": "Ride Connection's door to door service is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Friday, at least 4 days in advance of your trip time.",
-    "areas": [216, 213],
+    "areas": [213],
     "category": "other"
 }, {
     "route_long_name": "Gladstone Senior Center Grocery Shopping",
@@ -156,7 +156,7 @@
     "eligibility_restricted": false,
     "phone_number": "503-226-0700",
     "description": "WA County door to door service is available to the public. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Saturday, at least 4 days in advance of your trip time.",
-    "areas": [218, 219, 220],
+    "areas": [218],
     "category": "other"
 }, {
     "route_long_name": "Washington County U-Ride Door to Door",
@@ -164,7 +164,7 @@
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
     "description": "Washington County U-Ride is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Friday, at least 4 days in advance of your trip time.",
-    "areas": [218, 223],
+    "areas": [218],
     "category": "other"
 }, {
     "route_long_name": "Metropolitan Family Service Thursday Gateway Shopping",
@@ -332,7 +332,7 @@
     "eligibility_restricted": true,
     "phone_number": "503-655-8208",
     "description": "Transportation Reaching People's door to door service is for persons aged 60+ or with a disability. Call 503-655-8208 for more information about requesting a ride.",
-    "areas": [224, 223],
+    "areas": [224],
     "category": "other"
 }, {
     "route_long_name": "Canby Adult Center Lunch",
@@ -355,7 +355,7 @@
     "route_url": "",
     "eligibility_restricted": false,
     "phone_number": "",
-    "description": "Participants in our RideWise program receive access to information, public transportation training, and support centered on the safe and independent use of public transportation. Visit our page or call us at 503-226-0700 (TTY: 711) and we will get you going.",
+    "description": "Participants in our RideWise program receive access to information, public transportation training, and support centered on the safe and independent use of public transportation. Available for riders over 60 or with a disability. Visit our page or call us at 503-226-0700 (TTY: 711) and we will get you going.",
     "areas": [],
     "category": "alternative"
 },{
@@ -364,6 +364,14 @@
     "eligibility_restricted": true,
     "phone_number": "",
     "description": "This program empowers riders to recruit their own drivers. Each driver with the Ride Together program is reimbursed for miles driven. Available in Multnomah and Washington counties for older adults and people with disabilities. Call 503-226-0700 or TTY: 711 to get started.",
+    "areas": [],
+    "category": "alternative"
+},{
+    "route_long_name": "Trimet's Reduced Fare Program",
+    "route_url": "https://trimet.org/lowincome/index.htm",
+    "eligibility_restricted": false,
+    "phone_number": "",
+    "description": "Access to public transportation is access to opportunity. If you need help with your transportation costs, you may be able to ride the bus or train for less. Riders with qualifying annual incomes may be eligible for Honored Citizen fares, which are half the price of Adult fares. Click the program name more information, to determine eligibility, and enroll.",
     "areas": [],
     "category": "alternative"
 },{
