@@ -1,5 +1,5 @@
 import { h, Component } from "preact";
-
+import Badge from "./badge";
 import styles from './style.css';
 
 const Program = props => {
@@ -12,7 +12,7 @@ const Program = props => {
                 { renderCallButton(programData) }
             </div>
             <div class={styles.col}>
-                { renderBadges(programData) }
+                <Badge programData={programData} />
                 { description }
             </div>
         </div>
@@ -40,29 +40,6 @@ function renderCallButton(programData) {
         );
     }
     return '';
-}
-
-function renderBadges(programData) {
-    const { category } = programData;
-    if (category === 'medical') {
-        return getCategoryBadge('Medical Only', '#005EB8');
-    }
-    if (category === 'lunch') {
-        return getCategoryBadge('Lunch Social Service', '#ED8B00');
-    }
-    if (category === 'other') {
-        return getCategoryBadge('General Door-to-Door', '#0a5f31')
-    }
-    if (category === 'shopping') {
-        return getCategoryBadge('Shopping', '#009639')
-    }
-    return '';
-}
-
-function getCategoryBadge(text, color) {
-    return (
-        <div class={styles.badgeRow}><span class={styles.badge} style={{'background-color':color}}>{ text }</span></div>
-    );
 }
 
 export default Program;

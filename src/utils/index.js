@@ -36,7 +36,11 @@ export const selectActivePrograms = (selectors) => {
     return programs;
 }
 
-export const selectAlternativePrograms = programs => {
+export const selectAlternativePrograms = (formData, programs) => {
+    console.log(formData);
+    if (!formData.eligibility_restricted) {
+        programs = programs.filter( program => program.eligibility_restricted === formData.eligibility_restricted);
+    }
     return programs.filter( program => program.category === 'alternative');
 }
 

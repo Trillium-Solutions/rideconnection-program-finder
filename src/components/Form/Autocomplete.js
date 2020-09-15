@@ -44,7 +44,7 @@ class Autocomplete extends Component {
                     id="autocomplete"
                     name="origin"
                     type="text"
-                    placeholder="Enter your starting location (920 SW 3rd, Powell Park, etc.)"
+                    placeholder="Enter your specific starting location (920 SW 3rd, Powell Park, etc.)"
                 />
             </div>
         );

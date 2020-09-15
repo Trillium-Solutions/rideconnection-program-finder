@@ -5,7 +5,7 @@
     "phone_number": "503-226-0700",
     "description": "GroveLink allows deviations up to a 1/2 mile from the route. To request a deviated trip call 503-226-0700 Monday-Friday 7:30am - 5:00pm at least 24 hours in advance of trip time. Only one deviation is allowed per loop.",
     "areas": [279],
-    "category": "other"
+    "category": "route deviation"
 }, {
     "route_long_name": "Neighborhood House Door to Door",
     "route_url": "https://nhpdx.org/senior-services-2/",
@@ -47,37 +47,37 @@
     "areas": [237],
     "category": "lunch"
 }, {
+    "route_long_name": "Neighborhood House SW RideAbout",
+    "route_url": "https://nhpdx.org/senior-services-2/",
+    "eligibility_restricted": true,
+    "phone_number": "503-226-0700",
+    "description": "Neighborhood House's SW RideAbout is only available to senior citizens 60+ years or people with disabilities. This shuttle service provides a variety of shopping and activity options monthly. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least 4 days in advance of your trip time.",
+    "areas": [237],
+    "category": "shopping"
+}, {
     "route_long_name": "Metropolitan Family Service N/NE RideAbout",
     "route_url": "https://rideconnection.org/services/door-to-door-rides",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Metropolitan Family Service's N/NE RideAbout is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
+    "description": "Metropolitan Family Service's N/NE RideAbout is only available to senior citizens 60+ years or people with disabilities. This shuttle service provides a variety of shopping and activity options monthly. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
     "areas": [244],
     "category": "other"
 }, {
-    "route_long_name": "Estacada Community Center Lunch",
+    "route_long_name": "Estacada Community Center",
     "route_url": "https://estacadacommunitycenter.org/",
     "eligibility_restricted": true,
     "phone_number": "503-630-7454",
-    "description": "Estacada Community Center's lunch service is for persons aged 60+. Call 503-630-7454 for more information.",
+    "description": "Estacada Community Center's service is for persons aged 60+ or with a disability, and provides rides for multiple purposes such as lunch and shopping.",
     "areas": [226],
-    "category": "lunch"
+    "category": ["lunch", "shopping"]
 }, {
     "route_long_name": "Metropolitan Family Service North RideAbout",
     "route_url": "https://rideconnection.org/services/door-to-door-rides",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Metropolitan Family Service's North RideAbout service is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
+    "description": "Metropolitan Family Service's North RideAbout service is only available to senior citizens 60+ years or people with disabilities. This shuttle service provides a variety of shopping and activity options monthly. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
     "areas": [245],
     "category": "other"
-}, {
-    "route_long_name": "Gladstone Senior Center Lunch",
-    "route_url": "https://www.ci.gladstone.or.us/sc/page/senior-center-transportation",
-    "eligibility_restricted": true,
-    "phone_number": "503-655-7701",
-    "description": "Gladstone Senior Center's lunch service is for persons aged 60+ or with a disability. Call 503-655-7701 for more information.",
-    "areas": [227],
-    "category": "lunch"
 }, {
     "route_long_name": "Impact NW Door to Door",
     "route_url": "https://impactnw.org/programs/seniors/transporting/",
@@ -91,7 +91,7 @@
     "route_url": "https://www.metfamily.org/what-we-do/older-adult-support/transportation/",
     "eligibility_restricted": true,
     "phone_number": "503-249-0471",
-    "description": "Metropolitan Family Service's MidCounty RideAbout is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-249-0471 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
+    "description": "Metropolitan Family Service's MidCounty RideAbout is only available to senior citizens 60+ years or people with disabilities. This shuttle service provides a variety of shopping and activity options monthly. To request a ride call 503-249-0471 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
     "areas": [243],
     "category": "other"
 }, {
@@ -101,7 +101,7 @@
     "phone_number": "503-226-0700",
     "description": "The Tualatin Shuttle allows deviations up to 1/2 mile from the route. To request a deviated pickup/drop-off call 503-226-0700 (TTY: 711) 7:30am - 5:00pm Monday - Friday at least 24 hours in advance of your trip time.",
     "areas": [280],
-    "category": "other"
+    "category": "route deviation"
 }, {
     "route_long_name": "Impact NW Medical",
     "route_url": "https://impactnw.org/programs/seniors/transporting/",
@@ -115,7 +115,7 @@
     "route_url": "https://www.metfamily.org/what-we-do/older-adult-support/transportation/",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Metropolitan Family Service's Tuesday Shopping service is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm  Monday - Friday, at least a week in advance of your desired trip time.",
+    "description": "Metropolitan Family Service's Tuesday Shopping service is only available to senior citizens 60+ years or people with disabilities. Destinations include Fred Meyer and Winco stores on 82nd Ave. and 102nd Ave. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm  Monday - Friday, at least a week in advance of your desired trip time.",
     "areas": [283],
     "category": "shopping"
 }, {
@@ -135,19 +135,19 @@
     "areas": [213],
     "category": "other"
 }, {
-    "route_long_name": "Gladstone Senior Center Grocery Shopping",
+    "route_long_name": "Gladstone Senior Center",
     "route_url": "https://www.ci.gladstone.or.us/sc/page/senior-center-transportation",
     "eligibility_restricted": true,
     "phone_number": "503-655-7701",
-    "description": "Gladstone Senior Center's Grocery shopping service is for persons aged 60+ or with a disability. Call 503-655-7701 for more information.",
+    "description": "Gladstone Senior Center's lunch and grocery shopping service is for persons aged 60+ or with a disability. Call 503-655-7701 for more information.",
     "areas": [227],
-    "category": "shopping"
+    "category": ["lunch", "shopping"]
 }, {
     "route_long_name": "Metropolitan Family Service Wednesday Shopping",
     "route_url": "https://www.metfamily.org/what-we-do/older-adult-support/transportation/",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Metropolitan Family Service's Wednesday Shopping service is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
+    "description": "Metropolitan Family Service's Wednesday Shopping service travels to the Fred Meyer on SE 82nd Ave. and is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
     "areas": [284],
     "category": "shopping"
 }, {
@@ -155,7 +155,7 @@
     "route_url": "https://rideconnection.org/services/door-to-door-rides",
     "eligibility_restricted": false,
     "phone_number": "503-226-0700",
-    "description": "WA County door to door service is available to the public. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Saturday, at least 4 days in advance of your trip time.",
+    "description": "WA County door to door service is available to the public. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Saturday, at least two days in advance of your trip time.",
     "areas": [218],
     "category": "other"
 }, {
@@ -171,7 +171,7 @@
     "route_url": "https://www.metfamily.org/what-we-do/older-adult-support/transportation/",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Metropolitan Family Service Thursday Gateway Shopping's service is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
+    "description": "Metropolitan Family Service Thursday Gateway Shopping's service is only available to senior citizens 60+ years or people with disabilities. Destinations include the Gateway Shopping Center and the and the NE Glisan Fred Meyer. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
     "areas": [286],
     "category": "shopping"
 }, {
@@ -179,7 +179,7 @@
     "route_url": "https://rideconnection.org/services/door-to-door-rides",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Ride Connection's Downtown RideAbout is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Friday, at least 4 days in advance of your trip time.",
+    "description": "Ride Connection's Downtown RideAbout is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Friday, at least four days in advance of your trip time.",
     "areas": [282],
     "category": "shopping"
 }, {
@@ -189,7 +189,7 @@
     "phone_number": "503-226-0700",
     "description": "The North Hillsboro Link allows deviations from the route. To request a deviated trip call 503-226-0700, 7:30am - 5:00pm Monday - Friday at least 24 hours in advance of your trip time. Only one scheduled deviation (pick-up or drop-off ) is allowed per zone per trip.",
     "areas": [208, 277],
-    "category": "other"
+    "category": "route deviation"
 }, {
     "route_long_name": "Hoodland Senior Center Lunch",
     "route_url": "http://www.mthood.info/hoodlandseniors/",
@@ -203,7 +203,7 @@
     "route_url": "https://www.metfamily.org/what-we-do/older-adult-support/transportation/",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Metropolitan Family Service's Friday Gateway Shopping service is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
+    "description": "Metropolitan Family Service's Friday Gateway Shopping service is only available to senior citizens 60+ years or people with disabilities. Destinations include the Winco and Fred Meyer stores on NE 102nd Ave. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
     "areas": [285],
     "category": "shopping"
 }, {
@@ -219,7 +219,7 @@
     "route_url": "https://rideconnection.org/services/door-to-door-rides",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Ride Connection's 2nd Wednesday Shopping service is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least 4 days in advance of your trip time.",
+    "description": "Ride Connection's 2nd Wednesday Shopping service is only available to senior citizens 60+ years or people with disabilities. Destinations include Winco and Costco in Tigard, and Walmart in Milwuakie. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least 4 days in advance of your trip time.",
     "areas": [241],
     "category": "shopping"
 }, {
@@ -228,54 +228,22 @@
     "eligibility_restricted": false,
     "phone_number": "503-226-0700",
     "description": "GroveLink allows deviations up to a 1/2 mile from the route. To request a deviated trip call 503-226-0700 Monday-Friday 7:30am - 5:00pm at least 24 hours in advance of trip time. Only one deviation is allowed per loop. ",
-    "areas": [278],
-    "category": "other"
+    "areas": [278, 287],
+    "category": "route deviation"
 }, {
-    "route_long_name": "Molalla Adult Community Center Lunch",
-    "route_url": "http://molallaadultcenter.com/services/",
-    "eligibility_restricted": true,
-    "phone_number": "503-829-4214",
-    "description": "Molalla Adult Community Center's lunch service is for persons aged 60+ or with a disability. Call 503-829-4214 for more information.",
-    "areas": [230],
-    "category": "lunch"
-}, {
-    "route_long_name": "Estacada Community Center Shopping",
-    "route_url": "https://estacadacommunitycenter.org/",
-    "eligibility_restricted": true,
-    "phone_number": "503-630-7454",
-    "description": "Estacada Community Center's shopping service is for persons aged 60+. Call 503-630-7454 for more information.",
-    "areas": [231],
-    "category": "shopping"
-}, {
-    "route_long_name": "The Milwaukie Center Lunch",
+    "route_long_name": "The Milwaukie Center",
     "route_url": "https://ncprd.com/milwaukie-center/transportation-program",
     "eligibility_restricted": true,
     "phone_number": "503-653-8100",
-    "description": "The Milwaukie Center's lunch service is for persons aged 60+ or with a disability. Call 503-653-8100 for more information.",
+    "description": "The Milwaukie Center's service is for persons aged 60+ or with a disability, and provides rides for multiple purposes such as lunch and shopping. Call 503-653-8100 for more information.",
     "areas": [232],
-    "category": "lunch"
+    "category": ["lunch", "shopping"]
 }, {
-    "route_long_name": "The Milwaukie Center Shopping",
-    "route_url": "https://ncprd.com/milwaukie-center/transportation-program",
-    "eligibility_restricted": true,
-    "phone_number": "503-653-8100",
-    "description": "The Milwaukie Center's shopping service is for persons aged 60+ or with a disability. Call 503-653-8100 for more information.",
-    "areas": [232],
-    "category": "shopping"
-}, {
-    "route_long_name": "Pioneer Community Center Lunch",
+    "route_long_name": "Pioneer Community Center",
     "route_url": "https://www.orcity.org/pioneercenter/transportation",
     "eligibility_restricted": true,
     "phone_number": "503-657-8287",
-    "description": "Pioneer Community Center's lunch service is for persons aged 60+ or with a disability. Call 503-657-8287 for more information.",
-    "areas": [238],
-    "category": "lunch"
-}, {
-    "route_long_name": "Pioneer Community Center Door to Door",
-    "route_url": "https://www.orcity.org/pioneercenter/transportation",
-    "eligibility_restricted": true,
-    "phone_number": "503-657-8287",
-    "description": "Pioneer Community Center's door to door service is for persons aged 60+ or with a disability. Call 503-657-8287 for more information.",
+    "description": "Pioneer Community Center's service is for persons aged 60+ or with a disability, and provides rides for multiple purposes such as lunch, shopping, medical appointments and personal business. Call 503-657-8287 for more information.",
     "areas": [238],
     "category": "other"
 }, {
@@ -285,7 +253,7 @@
     "phone_number": "503-226-0700",
     "description": "The Tualatin Shuttle allows deviations up to 1/2 mile from the route. To request a deviated pickup call 503-226-0700 (TTY: 711) 7:30am - 5:00pm Monday-Friday at least 24 hours in advance of your trip time. ",
     "areas": [281],
-    "category": "other"
+    "category": "route deviation"
 }, {
     "route_long_name": "Sandy Senior and Community Center Shopping",
     "route_url": "https://www.ci.sandy.or.us/senior-center",
@@ -295,29 +263,21 @@
     "areas": [247],
     "category": "shopping"
 }, {
-    "route_long_name": "Sandy Senior and Community Center Lunch",
+    "route_long_name": "Sandy Senior and Community Center",
     "route_url": "https://www.ci.sandy.or.us/senior-center",
     "eligibility_restricted": true,
     "phone_number": "503-668-5569",
-    "description": "Sandy Senior and Community Center's lunch service is for persons aged 60+ or with a disability. Call 503-668-5569 for more information.",
-    "areas": [247],
-    "category": "lunch"
+    "description": "Sandy Senior and Community Center's service is for persons aged 60+ or with a disability, and provides rides for multiple purposes such as lunch and medical appointments. Call 503-668-5569 for more information.",
+    "areas": [246],
+    "category": ["lunch", "medical"]
 }, {
-    "route_long_name": "Sandy Senior and Community Center Medical",
-    "route_url": "https://www.ci.sandy.or.us/senior-center",
-    "eligibility_restricted": true,
-    "phone_number": "503-668-5569",
-    "description": "Sandy Senior and Community Center's Medical service is for persons aged 60+ or with a disability. Call 503-668-5569 for more information.",
-    "areas": [247],
-    "category": "medical"
-}, {
-    "route_long_name": "Molalla Adult Community Center Shopping",
+    "route_long_name": "Molalla Adult Community Center",
     "route_url": "http://molallaadultcenter.com/services/",
     "eligibility_restricted": true,
     "phone_number": "503-829-4214",
-    "description": "Molalla Adult Community Center's Shopping service is for persons aged 60+ or with a disability. Call 503-829-4214 for more information.",
+    "description": "Molalla Adult Community Center's service is for persons aged 60+ or with a disability, and provides rides for multiple purposes such as lunch and shopping. Call 503-829-4214 for more information.",
     "areas": [230],
-    "category": "shopping"
+    "category": ["lunch", "shopping"]
 }, {
     "route_long_name": "King City Ride About",
     "route_url": "https://rideconnection.org/assets/pdf/King_City_RideAbout.pdf?c=",
@@ -325,7 +285,7 @@
     "phone_number": "503-226-0700",
     "description": "The King City RideAbout allows deviations from the route.To request a deviated drop-off call 503-226-0700 (TTY: 711) 7:30am - 5:00pm Monday-Friday at least 24 hours in advance of your trip time. Priority given to seniors and people with disabilities.",
     "areas": [221],
-    "category": "other"
+    "category": "route deviation"
 }, {
     "route_long_name": "Transportation Reaching People Door to Door",
     "route_url": "https://www.clackamas.us/socialservices/transportation.html",
@@ -343,19 +303,11 @@
     "areas": [225],
     "category": "lunch"
 }, {
-    "route_long_name": "Veterans Helping Veterans",
-    "route_url": "",
-    "eligibility_restricted": false,
-    "phone_number": "",
-    "description": "Helping veterans and their spouses gain access to transportation by recruiting volunteer drivers who are veterans themselves. To volunteer, call 503-528-178. To access service call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service).",
-    "areas": [],
-    "category": "alternative"
-},{
     "route_long_name": "RideWise Travel Training Program",
     "route_url": "",
-    "eligibility_restricted": false,
+    "eligibility_restricted": true,
     "phone_number": "",
-    "description": "Participants in our RideWise program receive access to information, public transportation training, and support centered on the safe and independent use of public transportation. Available for riders over 60 or with a disability. Visit our page or call us at 503-226-0700 (TTY: 711) and we will get you going.",
+    "description": "Participants in our RideWise program receive access to information, public transportation training, and support centered on the safe and independent use of public transportation. Available for riders over 60 or with a disability. Visit our page or call us at 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) and we will get you going.",
     "areas": [],
     "category": "alternative"
 },{
@@ -363,7 +315,15 @@
     "route_url": "",
     "eligibility_restricted": true,
     "phone_number": "",
-    "description": "This program empowers riders to recruit their own drivers. Each driver with the Ride Together program is reimbursed for miles driven. Available in Multnomah and Washington counties for older adults and people with disabilities. Call 503-226-0700 or TTY: 711 to get started.",
+    "description": "This program empowers riders to recruit their own drivers. Each driver with the Ride Together program is reimbursed for miles driven. Available in Multnomah and Washington counties for older adults and people with disabilities. Call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) to get started.",
+    "areas": [],
+    "category": "alternative"
+},{
+    "route_long_name": "Veterans Helping Veterans",
+    "route_url": "",
+    "eligibility_restricted": false,
+    "phone_number": "",
+    "description": "Helping veterans and their spouses gain access to transportation by recruiting volunteer drivers who are veterans themselves. To volunteer, call 503-528-178. To access service call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service).",
     "areas": [],
     "category": "alternative"
 },{
@@ -379,7 +339,7 @@
     "route_url": "",
     "eligibility_restricted": false,
     "phone_number": "",
-    "description": "Ride Connection partners with a variety of local organizations to provide rides and services oriented towards riders with a first language other than English or a shared ethnicity. Call 502-226-0700 (TTY: 711) to learn more.",
+    "description": "Ride Connection partners with a variety of local organizations to provide rides and services oriented towards riders with a first language other than English or a shared ethnicity. Call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) to learn more.",
     "areas": [],
     "category": "alternative"
 },{
@@ -390,4 +350,12 @@
     "description": "Urban League's lunch service is for persons aged 60+ or with a disability. Call 971-279-2604 for more information.",
     "areas": [236],
     "category": "lunch"
+}, {
+    "route_long_name": "westLink",
+    "route_url": "https://rideconnection.org/assets/pdf/WestLink.pdf?c=",
+    "eligibility_restricted": false,
+    "phone_number": "503-226-0700",
+    "description": "WestLink allows deviations within Banks and North Plains city limits. To request a deviated trip call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday at least 24 hours in advance of your trip time.",
+    "areas": [288, 289],
+    "category": "route deviation"
 }]

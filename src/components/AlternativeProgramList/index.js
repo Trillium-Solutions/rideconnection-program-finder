@@ -10,7 +10,7 @@ class AlternativeProgramList extends Component {
         if (Object.keys(formData).length === 0) {
             return '';
         }
-        let alternativePrograms = selectAlternativePrograms(programs);
+        let alternativePrograms = selectAlternativePrograms(formData, programs);
         if ( alternativePrograms.length === 0 ) {
             return '';
         }
