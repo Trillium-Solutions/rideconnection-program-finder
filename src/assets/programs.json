@@ -321,7 +321,7 @@
 },{
     "route_long_name": "Veterans Helping Veterans",
     "route_url": "",
-    "eligibility_restricted": false,
+    "eligibility_restricted": true,
     "phone_number": "",
     "description": "Helping veterans and their spouses gain access to transportation by recruiting volunteer drivers who are veterans themselves. To volunteer, call 503-528-178. To access service call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service).",
     "areas": [],
