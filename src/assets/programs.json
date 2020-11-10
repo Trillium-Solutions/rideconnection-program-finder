@@ -135,6 +135,14 @@
     "areas": [213],
     "category": "other"
 }, {
+    "route_long_name": "Rural Multnomah County Dial-A-Ride",
+    "route_url": "https://rideconnection.org/services/door-to-door-rides",
+    "eligibility_restricted": false,
+    "phone_number": "503-226-0700",
+    "description": "Ride Connection's Rural Multnomah County door to door service is available to those traveling to, from, or within Multnomah county outside of TriMet’s service area. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Friday, at least 3 days in advance of your trip time.",
+    "areas": [292],
+    "category": "other"
+}, {
     "route_long_name": "Gladstone Senior Center",
     "route_url": "https://www.ci.gladstone.or.us/sc/page/senior-center-transportation",
     "eligibility_restricted": true,
