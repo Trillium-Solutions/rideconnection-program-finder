@@ -1,4 +1,5 @@
 import Terraformer from 'terraformer';
+import axios from 'axios';
 
 export const calculateProgramBounds = areas => {
     const geojson = areas.map(area => area.geojson);
@@ -16,6 +17,32 @@ export const calculateProgramBounds = areas => {
             lng: bbox[2]
         }
     }
+}
+
+const DEVELOPER_ID = '85BC2053CC7E3ECD6941E88BD';
+const BASE_URL = 'https://developer.trimet.org/ws/V1/stops';
+export const getNearbyStops = (origin, callback) => {
+    let lnglat = origin.lng.toString() + ',' + origin.lat.toString();
+    axios.get(BASE_URL, {
+        params: {
+            appID: DEVELOPER_ID,
+            json: true,
+            ll: lnglat,
+            meters: 400
+        }
+    })
+    .then(response => {
+        if (response.data && response.data.resultSet && response.data.resultSet.location) {
+            console.log(response);
+            callback(response.data.resultSet.location.length);
+        } else {
+            callback(0);
+        }
+    })
+    .catch(error => {
+        console.log(error);
+        callback(0);
+    });
 }
 
 export const selectActivePrograms = (selectors) => {

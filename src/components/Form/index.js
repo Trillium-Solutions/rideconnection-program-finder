@@ -1,6 +1,7 @@
 import { h, Component } from "preact";
 
 import Autocomplete from "./Autocomplete";
+import Tooltip from "./Tooltip";
 
 import styles from "./style.css";
 
@@ -11,7 +12,8 @@ class Form extends Component {
             eligibility_restricted: true,
             origin: {
                 lat: null,
-                lng: null
+                lng: null,
+                name: null
             }
         };
     }
@@ -36,7 +38,10 @@ class Form extends Component {
         return (
             <form onSubmit={(e) => this.onSubmit(e)}>
                 <fieldset class={styles.formLegend}>
-                    <legend>Are you 60+ years old or experiencing a disability?</legend>
+                    <legend>
+                        Are you 60+ years old or experiencing a disability?
+                        <Tooltip message="Age requirements vary by provider, see program details" />
+                    </legend>
                     <input
                         type="radio"
                         id="yes_eligible"

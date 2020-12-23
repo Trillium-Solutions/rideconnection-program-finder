@@ -6,8 +6,9 @@ import WKT from 'terraformer-wkt-parser';
 import Form from './Form';
 import ProgramList from './ProgramList';
 import AlternativeProgramList from './AlternativeProgramList';
+import StopInfo from './StopInfo';
 
-import { calculateProgramBounds, selectActivePrograms } from '../utils';
+import { calculateProgramBounds, selectActivePrograms, getNearbyStops } from '../utils';
 
 // props passed in from preact-habitat
 class Widget extends Component {
@@ -19,7 +20,9 @@ class Widget extends Component {
             programs: {loaded: false, data: []},
             areas: {loaded: false, data: []},
             formData: {},
-            eligiblePrograms: []
+            eligiblePrograms: [],
+            nearbyStops: null,
+            stopsLoaded: false
         };
         this.bounds = null;
         this.handleFormSubmit = this.handleFormSubmit.bind(this);
@@ -83,7 +86,12 @@ class Widget extends Component {
             areas:areas.data
         });
         this.setState({eligiblePrograms});
+        getNearbyStops(formData.origin, (response) => {
+            this.setState({nearbyStops: response, stopsLoaded: true});
+        });
     }
+
+
 
     renderLoading() {
         return (
@@ -99,6 +107,11 @@ class Widget extends Component {
                 <Form
                     handleFormSubmit={this.handleFormSubmit}
                     programBounds={this.bounds}
+                />
+                <StopInfo
+                    nearbyStops={this.state.nearbyStops}
+                    stopsLoaded={this.state.stopsLoaded}
+                    formData={this.state.formData}
                 />
                 <ProgramList
                     programs={this.state.programs.data}

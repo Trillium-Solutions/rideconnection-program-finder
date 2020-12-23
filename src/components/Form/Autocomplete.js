@@ -1,8 +1,8 @@
 import { h, Component } from "preact";
 
 import styles from './style.css';
-// Google autocomplete adds a lot of gross junk and is hard to make into
-// a controlled component. Data flow gets funky.
+// Google autocomplete is hard to make into
+// a controlled component.
 class Autocomplete extends Component {
     constructor() {
         super();
@@ -13,9 +13,11 @@ class Autocomplete extends Component {
 
     handleAutocompleteSelect() {
         const place = this.autocomplete.getPlace();
+        console.log(place);
         let lat = place.geometry.location.lat();
         let lng = place.geometry.location.lng();
-        this.props.handleInput({lat, lng});
+        let name = place.name;
+        this.props.handleInput({lat, lng, name});
     }
 
     componentDidMount() {
