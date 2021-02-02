@@ -39,7 +39,7 @@ class Form extends Component {
             <form onSubmit={(e) => this.onSubmit(e)}>
                 <fieldset class={styles.formLegend}>
                     <legend>
-                        Are you 60+ years old or experiencing a disability?
+                        Are you an older adult or have a disability?
                         <Tooltip message="Age requirements vary by provider, see program details" />
                     </legend>
                     <input

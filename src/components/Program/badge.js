@@ -23,9 +23,9 @@ const categories = {
         tooltipText: 'Get a meal and/or take class at a local senior center'
     },
     'other' : {
-        badgeText: 'General Door-to-Door',
+        badgeText: 'Door-to-Door',
         color: '#0a5f31',
-        tooltipText: 'Door to door service will take you almost anywhere you want to go within a designated service area'
+        tooltipText: 'Door-to-door service will take you almost anywhere you want to go within a designated service area'
     },
     'shopping' : {
         badgeText: 'Shopping',

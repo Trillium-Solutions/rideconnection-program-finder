@@ -3,7 +3,7 @@
     "route_url": "https://rideconnection.org/ride/assets/pdf/GroveLink_Brochure.pdf?c=1459982160",
     "eligibility_restricted": false,
     "phone_number": "503-226-0700",
-    "description": "GroveLink allows deviations up to a 1/2 mile from the route. To request a deviated trip call 503-226-0700 Monday-Friday 7:30am - 5:00pm at least 24 hours in advance of trip time. Only one deviation is allowed per loop.",
+    "description": "GroveLink is a fixed route service that allows for deviations up to a 1/2 mile from the route. To request a deviated trip call 503-226-0700 Monday-Friday 7:30am - 5:00pm at least 24 hours in advance of trip time. Only one deviation is allowed per loop.",
     "areas": [279],
     "category": "route deviation"
 }, {
@@ -11,7 +11,7 @@
     "route_url": "https://nhpdx.org/senior-services-2/",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Neighborhood House's door to door service is only available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least 4 days in advance of your trip time.",
+    "description": "Neighborhood House's door to door service is available to senior citizens 60+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least 4 days in advance of your trip time.",
     "areas": [237],
     "category": "other"
 }, {
@@ -27,7 +27,7 @@
     "route_url": "https://rideconnection.org/services/door-to-door-rides",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Metropolitan Family Service's Door Through Door service is only available to senior citizens 65+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
+    "description": "Metropolitan Family Service's Door Through Door service is available to senior citizens 65+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
     "areas": [242],
     "category": "other"
 }, {
@@ -59,7 +59,7 @@
     "route_url": "https://rideconnection.org/services/door-to-door-rides",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Metropolitan Family Service's N/NE RideAbout is only available to senior citizens 65+ years or people with disabilities. This shuttle service provides a variety of shopping and activity options monthly. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
+    "description": "Metropolitan Family Service's N/NE RideAbout is available to senior citizens 65+ years or people with disabilities. This shuttle service provides a variety of shopping and activity options monthly. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
     "areas": [244],
     "category": "other"
 }, {
@@ -75,7 +75,7 @@
     "route_url": "https://rideconnection.org/services/door-to-door-rides",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Metropolitan Family Service's North RideAbout service is only available to senior citizens 65+ years or people with disabilities. This shuttle service provides a variety of shopping and activity options monthly. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
+    "description": "Metropolitan Family Service's North RideAbout service is available to senior citizens 65+ years or people with disabilities. This shuttle service provides a variety of shopping and activity options monthly. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
     "areas": [245],
     "category": "other"
 }, {
@@ -91,7 +91,7 @@
     "route_url": "https://www.metfamily.org/what-we-do/older-adult-support/transportation/",
     "eligibility_restricted": true,
     "phone_number": "503-249-0471",
-    "description": "Metropolitan Family Service's MidCounty RideAbout is only available to senior citizens 65+ years or people with disabilities. This shuttle service provides a variety of shopping and activity options monthly. To request a ride call 503-249-0471 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
+    "description": "Metropolitan Family Service's MidCounty RideAbout is available to senior citizens 65+ years or people with disabilities. This shuttle service provides a variety of shopping and activity options monthly. To request a ride call 503-249-0471 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday, at least a week in advance of your trip time.",
     "areas": [243],
     "category": "other"
 }, {
@@ -99,7 +99,7 @@
     "route_url": "https://rideconnection.org/assets/pdf/Tualatin_Shuttle_Brochure.pdf?c=",
     "eligibility_restricted": false,
     "phone_number": "503-226-0700",
-    "description": "The Tualatin Shuttle allows deviations up to 1/2 mile from the route. To request a deviated pickup/drop-off call 503-226-0700 (TTY: 711) 7:30am - 5:00pm Monday - Friday at least 24 hours in advance of your trip time.",
+    "description": "The Tualatin Shuttle is a fixed route service that allows for deviations up to 1/2 mile from the route. To request a deviated pickup/drop-off call 503-226-0700 (TTY: 711) 7:30am - 5:00pm Monday - Friday at least 24 hours in advance of your trip time.",
     "areas": [280],
     "category": "route deviation"
 }, {
@@ -131,7 +131,7 @@
     "route_url": "https://rideconnection.org/services/door-to-door-rides",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Ride Connection's door to door service is only available to senior citizens 65+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Friday, at least 4 days in advance of your trip time.",
+    "description": "Ride Connection's door to door service is available to senior citizens 65+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Friday, at least 4 days in advance of your trip time.",
     "areas": [213],
     "category": "other"
 }, {
@@ -171,7 +171,7 @@
     "route_url": "https://rideconnection.org/services/door-to-door-rides",
     "eligibility_restricted": true,
     "phone_number": "503-226-0700",
-    "description": "Washington County U-Ride is only available to senior citizens 65+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Friday, at least 4 days in advance of your trip time.",
+    "description": "Washington County U-Ride is available to senior citizens 65+ years or people with disabilities. To request a ride call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm, Monday - Friday, at least 4 days in advance of your trip time.",
     "areas": [218],
     "category": "other"
 }, {
@@ -195,7 +195,7 @@
     "route_url": "https://rideconnection.org/assets/pdf/N-Hillsboro-Link.pdf?c=",
     "eligibility_restricted": false,
     "phone_number": "503-226-0700",
-    "description": "The North Hillsboro Link allows deviations from the route. To request a deviated trip call 503-226-0700, 7:30am - 5:00pm Monday - Friday at least 24 hours in advance of your trip time. Only one scheduled deviation (pick-up or drop-off ) is allowed per zone per trip.",
+    "description": "The North Hillsboro Link is a fixed route service that allows for deviations from the route. To request a deviated trip call 503-226-0700, 7:30am - 5:00pm Monday - Friday at least 24 hours in advance of your trip time. Only one scheduled deviation (pick-up or drop-off ) is allowed per zone per trip.",
     "areas": [208, 277],
     "category": "route deviation"
 }, {
@@ -235,7 +235,7 @@
     "route_url": "https://rideconnection.org/ride/assets/pdf/GroveLink_Brochure.pdf?c=1459982160",
     "eligibility_restricted": false,
     "phone_number": "503-226-0700",
-    "description": "GroveLink allows deviations up to a 1/2 mile from the route. To request a deviated trip call 503-226-0700 Monday-Friday 7:30am - 5:00pm at least 24 hours in advance of trip time. Only one deviation is allowed per loop. ",
+    "description": "GroveLink is a fixed route service that allows for deviations up to a 1/2 mile from the route. To request a deviated trip call 503-226-0700 Monday-Friday 7:30am - 5:00pm at least 24 hours in advance of trip time. Only one deviation is allowed per loop. ",
     "areas": [278, 287],
     "category": "route deviation"
 }, {
@@ -259,7 +259,7 @@
     "route_url": "https://rideconnection.org/assets/pdf/Tualatin_Shuttle_Brochure.pdf?c=",
     "eligibility_restricted": false,
     "phone_number": "503-226-0700",
-    "description": "The Tualatin Shuttle allows deviations up to 1/2 mile from the route. To request a deviated pickup call 503-226-0700 (TTY: 711) 7:30am - 5:00pm Monday-Friday at least 24 hours in advance of your trip time. ",
+    "description": "The Tualatin Shuttle is a fixed route service that allows for deviations up to 1/2 mile from the route. To request a deviated pickup call 503-226-0700 (TTY: 711) 7:30am - 5:00pm Monday-Friday at least 24 hours in advance of your trip time. ",
     "areas": [281],
     "category": "route deviation"
 }, {
@@ -291,8 +291,8 @@
     "route_url": "https://rideconnection.org/assets/pdf/King_City_RideAbout.pdf?c=",
     "eligibility_restricted": false,
     "phone_number": "503-226-0700",
-    "description": "The King City RideAbout allows deviations from the route.To request a deviated drop-off call 503-226-0700 (TTY: 711) 7:30am - 5:00pm Monday-Friday at least 24 hours in advance of your trip time. Priority given to seniors and people with disabilities.",
-    "areas": [221],
+    "description": "The King City RideAbout is a fixed route service that allows for deviations from the route.To request a deviated drop-off call 503-226-0700 (TTY: 711) 7:30am - 5:00pm Monday-Friday at least 24 hours in advance of your trip time. Priority given to seniors and people with disabilities.",
+    "areas": [221, 222],
     "category": "route deviation"
 }, {
     "route_long_name": "Transportation Reaching People",
@@ -312,7 +312,7 @@
     "category": "lunch"
 }, {
     "route_long_name": "RideWise Travel Training Program",
-    "route_url": "",
+    "route_url": "https://rideconnection.org/services/travel-training",
     "eligibility_restricted": true,
     "phone_number": "",
     "description": "Participants in our RideWise program receive access to information, public transportation training, and support centered on the safe and independent use of public transportation. Available for riders over 60 or with a disability. Visit our page or call us at 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) and we will get you going.",
@@ -343,14 +343,6 @@
     "areas": [],
     "category": "alternative"
 },{
-    "route_long_name": "Culturally Specific Programs",
-    "route_url": "",
-    "eligibility_restricted": false,
-    "phone_number": "",
-    "description": "Ride Connection partners with a variety of local organizations to provide rides and services oriented towards riders with a first language other than English or a shared ethnicity. Call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) to learn more.",
-    "areas": [],
-    "category": "alternative"
-},{
     "route_long_name": "Urban League Lunch",
     "route_url": "https://ulpdx.org/programs/senior-services",
     "eligibility_restricted": true,
@@ -359,11 +351,11 @@
     "areas": [236],
     "category": "lunch"
 }, {
-    "route_long_name": "westLink",
+    "route_long_name": "WestLink",
     "route_url": "https://rideconnection.org/assets/pdf/WestLink.pdf?c=",
     "eligibility_restricted": false,
     "phone_number": "503-226-0700",
-    "description": "WestLink allows deviations within Banks and North Plains city limits. To request a deviated trip call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday at least 24 hours in advance of your trip time.",
+    "description": "WestLink is a fixed route service between Forest Grove and Hillsboro Transit Center that allows for deviations within Banks and North Plains city limits. To request a deviated trip call 503-226-0700 or TTY: 7-1-1 (Oregon Relay Service) 7:30am - 5:00pm Monday - Friday at least 24 hours in advance of your trip time.",
     "areas": [288, 289],
     "category": "route deviation"
 }]
