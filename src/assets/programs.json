@@ -327,8 +327,6 @@
     "areas": [],
     "category": "alternative"
 },{
-<<<<<<< HEAD
-=======
     "route_long_name": "Ride Together Mileage Reimbursement",
     "route_url": "",
     "eligibility_restricted": true,
@@ -345,7 +343,6 @@
     "areas": [],
     "category": "alternative"
 },{
->>>>>>> 1c0777cb7685b9f564f0bacba91da3dfa3030f09
     "route_long_name": "Trimet's Reduced Fare Program",
     "route_url": "https://trimet.org/lowincome/index.htm",
     "eligibility_restricted": false,
