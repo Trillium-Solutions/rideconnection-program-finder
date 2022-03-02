@@ -2,11 +2,9 @@
     "env": {
         "test": {
             "plugins": [
-                "transform-es2015-modules-commonjs",
-                ["transform-react-jsx", {
-                    "pragma": "h"
-                }],
-                "transform-class-properties"
+                ["@babel/transform-react-jsx", {
+                    "pragma": "dom" // default pragma is React.createElement
+                }]
             ]
         }
     }

@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "NODE_ENV=test jest",
-    "build": "preact build --no-prerender --clean --template src/index.ejs --service-worker false",
+    "build": "preact build --no-prerender --no-sw --template src/index.ejs",
     "serve": "preact serve",
     "dev": "preact watch --template src/index.ejs"
   },
